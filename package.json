@@ -6,8 +6,14 @@
     "jstransformer",
     "textile"
   ],
-  "files": [ "index.js" ],
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-livescript": "^3.0.1",
+    "livescript": "^1.6.0",
     "test-jstransformer": "^1.0.0",
     "xo": "*"
   },

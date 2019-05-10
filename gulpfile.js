@@ -5,7 +5,7 @@ fs = require('fs');
 del = require('delete');
 lsc = require('gulp-livescript');
 function build(cb){
-  src(['src/*.ls' 'lib/*.ls', '*.ls'])
+  src(['src/*.ls', 'lib/*.ls', '*.ls'])
     .pipe(lsc({ bare: true }))
     .pipe(dest('./'));
   cb();

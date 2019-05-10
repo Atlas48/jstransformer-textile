@@ -1,33 +1,36 @@
 # JSTransformer Boilerplate
 
-Use JSTransformer Boilerplate to create and update transformers.
+Textile support for JSTransformers.
 
-1. Visit [the Boilerplate Wiki](https://github.com/jstransformers/boilerplate/wiki) on how to get started
-2. Remove this top notice from any transformers
+# jstransformer-textile
 
-# jstransformer-foo
+[Textile](http://textile-lang.com/) support for [JSTransformers](http://github.com/jstransformers).
 
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-foo/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-foo)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-foo.svg)](https://greenkeeper.io/)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/AtlasJan/jstransformer-textile/master.svg)](https://travis-ci.org/jstransformers/jstransformer-textile)
+[![Coverage Status](https://img.shields.io/codecov/c/github/AtlasJan/jstransformer-textile/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-textile)
+[![Dependency Status](https://img.shields.io/david/AtlasJan/jstransformer-textile/master.svg)](http://david-dm.org/jstransformers/jstransformer-textile)
+[![Greenkeeper badge](https://badges.greenkeeper.io/AtlasJan/jstransformer-textile.svg)](https://greenkeeper.io/)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-textile.svg)](https://www.npmjs.org/package/jstransformer-textile)
 
 ## Installation
 
-    npm install jstransformer-foo
+###NPM
+
+    npm install jstransformer-textile
+
+###Yarn
+
+    yarn add jstransformer-textile
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var textile = require('jstransformer')(require('jstransformer-textile'))
 
-foo.render('blah').body
-//=> 'blah'
+textile.render('_blah_').body
+//=> '<p><em>blah</em></p>'
 ```
 
 ## License
 
-MIT
+See `licence.txt`
