@@ -1,0 +1,26 @@
+{
+  "name": "jstransformer-textile",
+  "version": "0.1.0",
+  "description": "Textile support for JSTransformers.",
+  "keywords": [
+    "jstransformer",
+    "textile"
+  ],
+  "files": [ "index.js" ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0",
+    "xo": "*"
+  },
+  "scripts": {
+    "test": "test-jstransformer",
+    "posttest": "xo --space=2 --no-semicolon index.js",
+    "coverage": "test-jstransformer coverage"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": "https://github.com/AtlasJan/jstransformer-textile.git",
+  "author": "Atlas",
+  "license": "MIT",
+  "main": "index.js"
+}
