@@ -28,5 +28,11 @@
   "repository": "https://github.com/AtlasJan/jstransformer-textile.git",
   "author": "Atlas",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "textile": "^0.0.1"
+  },
+  "peerDependencies": {
+    "jstransformer": "^1.0.0"
+  }
 }
