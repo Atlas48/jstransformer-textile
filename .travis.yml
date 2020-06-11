@@ -14,3 +14,5 @@ notifications:
 cache:
   directories:
   - node_modules
+
+before_script: gulp

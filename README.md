@@ -1,7 +1,3 @@
-# JSTransformer Boilerplate
-
-Textile support for JSTransformers.
-
 # jstransformer-textile
 
 [Textile](http://textile-lang.com/) support for [JSTransformers](http://github.com/jstransformers).

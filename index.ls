@@ -1,4 +1,4 @@
-require! textile
+require! textile:{convert:textile}
 
 class Not-implemented-error extends Error
   ->
@@ -11,20 +11,10 @@ function not-implemented
 name = 'textile'
 input-formats = [\txti \txtl \textile]
 output-format = \html
-o-can =
-  render: true
-  render-async: true
-  render-file: false
-  compile: false
-  compile-async: false
+output-formats= [output-format]
+o-can = {+render, -render-async, -render-file, -compile, -compile-async}
 
-for k,v of o-can
-  if k[v]
-    out$[k] = textile
-  else
-    out$[k] = not-implemented
-
+out$.render = out$.render-async = textile
 export function can str then o-can[str]
-
-export name, input-formats, output-formats
+export name, input-formats, output-format, output-formats
 
