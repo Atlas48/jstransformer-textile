@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-textile",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Textile support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -10,7 +10,6 @@
     "index.js"
   ],
   "scripts": {
-    "build":"gulp",
     "test": "test-jstransformer",
     "posttest": "xo --space=2 --no-semicolon index.js",
     "coverage": "test-jstransformer coverage"
@@ -23,14 +22,10 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "textile": "^0.0.1"
+    "textile-js": "^2.1.1"
   },
   "devDependencies": {
-    "delete": "^1.1.0",
-    "gulp": "^4.0.2",
-    "gulp-livescript": "^3.0.1",
-    "livescript": "^1.6.0",
-    "test-jstransformer": "^1.0.3",
+    "test-jstransformer": "^1.1.0",
     "xo": "*"
   },
   "peerDependencies": {
