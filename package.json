@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-textile",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Textile support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -17,7 +17,10 @@
   "engines": {
     "node": ">=4"
   },
-  "repository": "https://github.com/AtlasJan/jstransformer-textile.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasJan/jstransformer-textile.git"
+  },
   "author": "Atlas",
   "license": "MIT",
   "main": "index.js",
