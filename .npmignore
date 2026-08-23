@@ -13,6 +13,7 @@ coverage
 #editor settings
 .idea
 .editorconfig
+.github
 #.gitignore help
 node_modules
 *.log*
