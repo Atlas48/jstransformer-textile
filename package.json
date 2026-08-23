@@ -1,8 +1,8 @@
 {
   "name": "jstransformer-textile",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Textile support for JSTransformers.",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "jstransformer",
     "textile"
